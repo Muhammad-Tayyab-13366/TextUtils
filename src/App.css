@@ -44,3 +44,7 @@
 .white-color{
   color: white !important;
 }
+
+.alter-height{
+  height: 60px;
+}

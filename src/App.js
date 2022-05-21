@@ -97,7 +97,9 @@ function App() {
         
           
           <Route  exact path="/" element={ <div className='container'>
-            <Alert alert={alert} ></Alert> 
+            <div className='alter-height'> 
+            <Alert alert={alert} ></Alert>
+            </div> 
             <TextForm mode={mode} backgroundColor={backgroundColor} showAlert={showAlert}></TextForm>
           </div>} />
           <Route  exact path="/about" element={<About />} />
